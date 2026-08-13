@@ -8,14 +8,5 @@ getgenv().GrokConfig = {
 	API_URL = "https://api.x.ai/v1/chat/completions"
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/gui.luau"))()
-```
-
-## Configurations
-```lua
-getgenv().GrokConfig = {
-	API_KEY = "PUT UR API KEY HERE", -- ← put your key here
-	MODEL = "grok-4.6", -- latest Model
-	API_URL = "https://api.x.ai/v1/chat/completions"
-}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Git-art-byte/xAI/refs/heads/main/gui.luau"))()
 ```
