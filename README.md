@@ -12,5 +12,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_RE
 ```
 
 ## Configurations
-Hi
-### hi
+```lua
+getgenv().GrokConfig = {
+	API_KEY = "PUT UR API KEY HERE", -- ← put your key here
+	MODEL = "grok-4.6", -- latest Model
+	API_URL = "https://api.x.ai/v1/chat/completions"
+}
+```
